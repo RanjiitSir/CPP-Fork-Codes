@@ -1,0 +1,129 @@
+BOOKS
+
+		-- C++ Programmming Language - By Bjarne Stroustrup
+		
+		-- Thinking in C++ - Vol 01, Vol 02
+		
+		-- C++ Primer 
+
+		-- Master Minds of Programming
+
+--------------------------------------------------------------------------------------------------
+
+		Every C++ Program Gets Converted into its Corresponding C Program
+	
+		*** C++ is not Just Programmming Language, Its a Thinking Process ***
+		
+--------------------------------------------------------------------------------------------------
+
+	C Language Toolchain
+	
+			
+			Editor  -  Preprocessor   -    Compiler   -    Assembler   -  Linker   -    Loader  
+			
+			 .C		-       .i        -      .asm     -       .o	   -   .exe
+		
+==================================================================================================
+
+
+	C++ Language Toolchain
+	
+			
+			Editor   -  Preprocessor  -    C++ Compiler  -    C Compiler   -    Assembler   -  Linker   -    Loader  
+			
+			 .C++	 -       .i       -       .C         -      .asm       -      .o        -   .exe
+			 
+			 
+=================================================================================================
+	
+	Similar Concepts in C++ like C =>
+			 
+			Input Output Statement => cin , cout
+			
+	Same Concepts in C++ like C =>
+	
+			Operators in C => All Types
+			Conditional Control Statements => if, if else, nested if else, else if ladder, 
+			Looping Statements => while, do while, for
+			Jump Control Statements => switch goto
+			Arrays
+			String
+			Structure
+			Pointers
+			Functions
+					Function Like Macro
+			Dynamic Memory Allocation 
+							# C    =>   malloc, calloc, relloc  - free
+							# C++  =>       new 			    - delete
+
+--------------------------------------------------------------------------------------------------------------------------------------------------	 
+
+	Object Oriented Concepts/ Paradigms => 
+	
+						Encapsulation
+	
+						Class
+						
+								Characteristics / Data Members / Class Variables
+								Behaviors / Member Funtions / Class Functions
+								
+								Constructor
+											x> Synthesized Constructor
+											
+											1> Default Constructor
+											2> Parameterized Constructor
+											
+											i> Copy Constructor
+											
+								Destructor
+								
+						Access Specifier 
+								- Public
+								- Private
+								- Protected
+				
+						
+						Object	/ Instance of Class
+										
+						Abstraction
+						
+						Inheritance	
+									- (Reusability)
+									
+									Types
+										1> 
+										2>
+										3>
+										4>
+										
+						Polymorphism
+						
+									A> Compile Time Polymorphism (Early Binding)
+													1> Function Overloading
+													2> Operator Overloading
+													
+									B> Run Time Polymorphism (Late Binding)
+													1> Virtual 
+													2> Pure Virtual 
+															
+=============================================================================================================================
+
+Important Points in C++
+
+			this pointer
+			
+			reference variable
+			
+			inline function
+			
+			static
+			
+			constant
+			
+			mutable
+			
+			friend
+			
+			Template
+
+============================================================================================================================
