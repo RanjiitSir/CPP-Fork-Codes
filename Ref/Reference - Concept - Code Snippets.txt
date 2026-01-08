@@ -1,0 +1,45 @@
+int i = 10;
+int &Ref1 = i;
+int &Ref2 = Ref1;
+int &Ref3 = Ref2;
+
+int *p = &Ref1;
+
+float &Ref4 = i; // Not Allowed
+
+int &Ref5 = 50;  // Not Allowed
+
+Ref1++;
+i++;
+
+cout << Ref1;   // 12
+cout << i;      // 12
+cout << Ref2;   // 12
+cout << Ref3;   // 12
+
+cout << &i;     // 580
+cout << &Ref1;  // 580
+
+
+int No = 21;
+int *p = &No;
+int *b = p;
+int *x = b;
+
+int* (&PRef) = *p; 
+
+cout << *p;    // 21
+cout << No;    // 21
+cout << *b;    // 21
+cout << *x;    // 21
+cout << *PRef; // 21
+
+
+int  Arr[5] = {10,20,30,40,50};
+
+int (&ARef)[] = Arr;
+
+int [5](&ARef) = Arr;
+
+cout << Arr[2];    // 30
+cout << ARef[2];   // 30
